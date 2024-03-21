@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP DISCOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+        <div class="menu-hamb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+        <h1>POP DISCOS</h1>
+        <img src="image/cart-icon.png" />
+    </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">SOBRE A LOJA</a>
+                    </li>
+                    <li>
+                        <a href="#">PRODUTOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+</header>
+
+<section id="sobre-a-loja">
+    <div class="container container-flex">
+        <img src="image/interior_loja.png" alt="interior da loja" />
+        <div>
+            <h2>SOBRE A LOJA</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur, eveniet, distinctio laboriosam in quisquam exercitationem porro rerum necessitatibus ea, praesentium amet vel. Eum debitis molestiae fuga provident cumque laudantium!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur unde accusamus laborum animi molestiae exercitationem quae quia pariatur quos. Qui neque ea et blanditiis alias doloribus nobis totam deserunt sint?</p>
+        </div>
+    </div>
+</section>
+
+<section id="produtos">
+    <div class="container">
+    <h2>PRODUTOS</h2>
+    <hr>
+    <ul class="container-flex lista-produtos">
+        <li>
+            <img src="image/produto1.jpg" alt="DISCO BANGERZ">
+            <h3>CD BANGERZ - Miley Cyrus</h3>
+            <p>Ano: 2013 </p>
+            <p>Mídia: Físico</p>
+            <strong>R$49,90</strong>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <img src="image/produto2.jpg_large" alt="DISCO BANGERZ">
+            <h3>CD RENAISSANCE - Beyoncé</h3>
+            <p>Ano: 2022</p>
+            <p>Mídia: Físico</p>
+            <strong>R$49,90</strong>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <img src="image/produto3.jpg" alt="DISCO BANGERZ">
+            <h3>CD ETERNAL SUNSHINE - Ariana Grande</h3>
+            <p>Ano: 2024</p>
+            <p>Mídia: Físico</p>
+            <strong>R$49,90</strong>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <img src="image/produto4.jpg" alt="DISCO BANGERZ">
+            <h3>CD FUTURE NOSTALGIA - Dua Lipa</h3>
+            <p>Ano: 2020</p>
+            <p>Mídia: Físico</p>
+            <strong>R$49,90</strong>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+    </ul>
+</div>
+</section>
+
+<footer>
+    Site para fins acadêmicos
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menu-hamb').click(function() {
+        $('nav').slideToggle();
+    })
+
+        })
+    </script>
+</body>
+</html>
