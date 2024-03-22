@@ -166,6 +166,11 @@ footer {
         color: #000000;
     }
 
+    #sobre-a-loja img {
+        height: 300px;
+        margin: 0;
+        }
+
     nav ul {
         margin-left: 25%;
     }
